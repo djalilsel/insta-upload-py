@@ -1,6 +1,6 @@
-# instaAutoUpload
+# instaUploadPy
 
-instaAutoUpload is a Python package designed to automate video uploads to Instagram using web requests. This package allows you to schedule video uploads at a specified interval, making it ideal for users who want to keep their Instagram feed updated without manual intervention.
+instaUploadPy is a Python package designed to automate video uploads to Instagram using web requests. This package allows you to schedule video uploads at a specified interval, making it ideal for users who want to keep their Instagram feed updated without manual intervention.
 
 ## Features
 
