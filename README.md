@@ -17,3 +17,22 @@ You can install instaAutoUpload via pip:
 ```bash
 pip install insta-upload-py
 ```
+
+## Example
+
+Make sure to replace the placeholders with the correct values:
+
+```python
+from instaUploadPy import InstaUpload
+
+# Define your variables
+VIDEOS_PATH = 'path/to/your/videos'  # Replace with the path to the videos you want to upload
+COOKIES = {'should be a json object'}  # Get your Instagram account cookies 
+INTERVAL = 10  # Set the interval for posting (in minutes)
+
+# Initialize InstaUpload with your Instagram cookies
+insta_upload = InstaUpload(COOKIES)
+
+# Schedule video uploads
+insta_upload.startPosting(VIDEOS_PATH, INTERVAL)
+```
